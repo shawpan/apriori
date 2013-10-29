@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apriori", "Apriori\Apriori.csproj", "{89004511-E875-43D1-AF36-45D195C09BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apriori Tests", "Apriori Tests\Apriori Tests.csproj", "{99A03552-D35E-49D0-931F-82130340C2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D6BA826-7ADA-4F80-B3EB-D38777E29ED9}"
+	ProjectSection(SolutionItems) = preProject
+		Apriori.vsmdi = Apriori.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Apriori.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|Win32.ActiveCfg = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|x86.ActiveCfg = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Debug|x86.Build.0 = Debug|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|Any CPU.ActiveCfg = Release|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|Mixed Platforms.Build.0 = Release|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|Win32.ActiveCfg = Release|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|x86.ActiveCfg = Release|x86
+		{89004511-E875-43D1-AF36-45D195C09BC0}.Release|x86.Build.0 = Release|x86
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|Win32.ActiveCfg = Release|Any CPU
+		{99A03552-D35E-49D0-931F-82130340C2B0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

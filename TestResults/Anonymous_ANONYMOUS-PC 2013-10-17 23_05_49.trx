@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ec8edb57-e93c-4e59-bc45-dafde8e28795" name="Anonymous@ANONYMOUS-PC 2013-10-17 23:05:49" runUser="Anonymous-PC\Anonymous" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9b809212-ae85-4ec8-9f29-ef98244539d2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anonymous_ANONYMOUS-PC 2013-10-17 23_05_49">
+      <DeploymentItem filename="C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-17T23:05:49.7034967+06:00" queuing="2013-10-17T23:05:51.6516081+06:00" start="2013-10-17T23:05:51.8416190+06:00" finish="2013-10-17T23:05:55.0618032+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetFrequencyAllItemsTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="a33e6096-e31c-01b3-d777-a7290136d5a6">
+      <Execution id="34bd6109-7a55-414d-8d39-8f0f7d95a038" />
+      <TestMethod codeBase="C:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyAllItemsTest" />
+    </UnitTest>
+    <UnitTest name="GetFrequencyTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="adcec1bd-e553-9326-458b-7d84285bfc8e">
+      <Execution id="3431df42-4604-4258-bd73-569e7ee21c53" />
+      <TestMethod codeBase="C:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a33e6096-e31c-01b3-d777-a7290136d5a6" executionId="34bd6109-7a55-414d-8d39-8f0f7d95a038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adcec1bd-e553-9326-458b-7d84285bfc8e" executionId="3431df42-4604-4258-bd73-569e7ee21c53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34bd6109-7a55-414d-8d39-8f0f7d95a038" testId="a33e6096-e31c-01b3-d777-a7290136d5a6" testName="GetFrequencyAllItemsTest" computerName="ANONYMOUS-PC" duration="00:00:00.4581163" startTime="2013-10-17T23:05:51.9526253+06:00" endTime="2013-10-17T23:05:54.2227552+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34bd6109-7a55-414d-8d39-8f0f7d95a038">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Apriori_Tests.FileDatabaseHelperTest.GetFrequencyAllItemsTest threw exception: 
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\TestResults\AppData\mushroom.dat'.</Message>
+          <StackTrace>    at Apriori.DAL.Gateway.FileDatabaseHelper.GetFrequencyAllItems() in C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori\DAL\Gateway\FileDatabaseHelper.cs:line 57
+   at Apriori_Tests.FileDatabaseHelperTest.GetFrequencyAllItemsTest() in C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\FileDatabaseHelperTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3431df42-4604-4258-bd73-569e7ee21c53" testId="adcec1bd-e553-9326-458b-7d84285bfc8e" testName="GetFrequencyTest" computerName="ANONYMOUS-PC" duration="00:00:00.0379541" startTime="2013-10-17T23:05:54.5737752+06:00" endTime="2013-10-17T23:05:54.6447793+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3431df42-4604-4258-bd73-569e7ee21c53">
+      <Output>
+        <StdOut>Could not find a part of the path 'C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\TestResults\AppData\mushroom.dat'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Apriori.DAL.Gateway.FileDatabaseHelper.GetFrequency(ItemSet itemSet) in C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori\DAL\Gateway\FileDatabaseHelper.cs:line 84</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

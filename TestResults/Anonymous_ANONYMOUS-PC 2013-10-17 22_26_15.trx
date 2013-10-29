@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f4dc0860-cbcb-4b37-9422-c277a5f2ef4f" name="Anonymous@ANONYMOUS-PC 2013-10-17 22:26:15" runUser="Anonymous-PC\Anonymous" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9b809212-ae85-4ec8-9f29-ef98244539d2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anonymous_ANONYMOUS-PC 2013-10-17 22_26_15">
+      <DeploymentItem filename="c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-17T22:26:15.3836934+06:00" queuing="2013-10-17T22:26:20.6649954+06:00" start="2013-10-17T22:26:20.8840080+06:00" finish="2013-10-17T22:26:23.5311594+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetFrequencyAllItemsTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="a33e6096-e31c-01b3-d777-a7290136d5a6">
+      <Execution id="b1c32466-80f6-447f-a3d4-a43ceb2c3b29" />
+      <TestMethod codeBase="c:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyAllItemsTest" />
+    </UnitTest>
+    <UnitTest name="GetFrequencyTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="adcec1bd-e553-9326-458b-7d84285bfc8e">
+      <Execution id="b69db680-5ef9-4752-8e82-694723708b34" />
+      <TestMethod codeBase="c:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a33e6096-e31c-01b3-d777-a7290136d5a6" executionId="b1c32466-80f6-447f-a3d4-a43ceb2c3b29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adcec1bd-e553-9326-458b-7d84285bfc8e" executionId="b69db680-5ef9-4752-8e82-694723708b34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b1c32466-80f6-447f-a3d4-a43ceb2c3b29" testId="a33e6096-e31c-01b3-d777-a7290136d5a6" testName="GetFrequencyAllItemsTest" computerName="ANONYMOUS-PC" duration="00:00:00.4067951" startTime="2013-10-17T22:26:21.2010261+06:00" endTime="2013-10-17T22:26:23.1751390+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1c32466-80f6-447f-a3d4-a43ceb2c3b29">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[Apriori.DAL.DAO.Item]&gt;. </Message>
+          <StackTrace>   at Apriori_Tests.FileDatabaseHelperTest.GetFrequencyAllItemsTest() in c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\FileDatabaseHelperTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b69db680-5ef9-4752-8e82-694723708b34" testId="adcec1bd-e553-9326-458b-7d84285bfc8e" testName="GetFrequencyTest" computerName="ANONYMOUS-PC" duration="00:00:00.0469550" startTime="2013-10-17T22:26:23.2041407+06:00" endTime="2013-10-17T22:26:23.2651442+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b69db680-5ef9-4752-8e82-694723708b34">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at Apriori_Tests.FileDatabaseHelperTest.GetFrequencyTest() in c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\FileDatabaseHelperTest.cs:line 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

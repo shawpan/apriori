@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d859a25e-025f-4bd4-997a-caf0d0ed676d" name="Anonymous@ANONYMOUS-PC 2013-10-17 22:56:54" runUser="Anonymous-PC\Anonymous" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9b809212-ae85-4ec8-9f29-ef98244539d2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anonymous_ANONYMOUS-PC 2013-10-17 22_56_54">
+      <DeploymentItem filename="C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-17T22:56:54.4168800+06:00" queuing="2013-10-17T22:56:56.1609798+06:00" start="2013-10-17T22:56:56.3889928+06:00" finish="2013-10-17T22:57:06.5285728+06:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ANONYMOUS-PC" outcome="Error" timestamp="2013-10-17T22:57:06.5255726+06:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetFrequencyAllItemsTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="a33e6096-e31c-01b3-d777-a7290136d5a6">
+      <Execution id="14afa493-06b7-4b4e-a31e-c1e06adafdf7" />
+      <TestMethod codeBase="C:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyAllItemsTest" />
+    </UnitTest>
+    <UnitTest name="GetFrequencyTest" storage="c:\users\anonymous\documents\visual studio 2010\projects\apriori\apriori tests\bin\debug\apriori tests.dll" id="adcec1bd-e553-9326-458b-7d84285bfc8e">
+      <Execution id="c190d6e6-d56a-49a3-ae29-b9ca3fce1854" />
+      <TestMethod codeBase="C:/Users/Anonymous/Documents/Visual Studio 2010/Projects/Apriori/Apriori Tests/bin/Debug/Apriori Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Apriori_Tests.FileDatabaseHelperTest, Apriori Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFrequencyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a33e6096-e31c-01b3-d777-a7290136d5a6" executionId="14afa493-06b7-4b4e-a31e-c1e06adafdf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adcec1bd-e553-9326-458b-7d84285bfc8e" executionId="c190d6e6-d56a-49a3-ae29-b9ca3fce1854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="14afa493-06b7-4b4e-a31e-c1e06adafdf7" testId="a33e6096-e31c-01b3-d777-a7290136d5a6" testName="GetFrequencyAllItemsTest" computerName="ANONYMOUS-PC" duration="00:00:09.9095668" startTime="2013-10-17T22:56:56.6190060+06:00" endTime="2013-10-17T22:57:06.5285728+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14afa493-06b7-4b4e-a31e-c1e06adafdf7">
+    </UnitTestResult>
+    <UnitTestResult executionId="c190d6e6-d56a-49a3-ae29-b9ca3fce1854" testId="adcec1bd-e553-9326-458b-7d84285bfc8e" testName="GetFrequencyTest" computerName="ANONYMOUS-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c190d6e6-d56a-49a3-ae29-b9ca3fce1854">
+    </UnitTestResult>
+  </Results>
+</TestRun>

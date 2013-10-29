@@ -1,0 +1,8 @@
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\bin\Debug\Apriori Tests.dll
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\bin\Debug\Apriori Tests.pdb
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\bin\Debug\Apriori.exe
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\bin\Debug\Apriori.pdb
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\obj\Debug\Apriori Tests.dll
+c:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\obj\Debug\Apriori Tests.pdb
+C:\Users\Anonymous\Documents\Visual Studio 2010\Projects\Apriori\Apriori Tests\bin\Debug\Apriori Tests.dll.config

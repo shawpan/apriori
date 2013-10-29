@@ -1,0 +1,6 @@
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.exe.config
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.exe
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\bin\Debug\Apriori.pdb
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\obj\x86\Debug\Apriori.exe
+c:\users\anonymous\documents\visual studio 2010\Projects\Apriori\Apriori\obj\x86\Debug\Apriori.pdb
